@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         img.setBackgroundResource(R.drawable.anim);
         animationDrawable = (AnimationDrawable) img.getBackground();
 
-        final int[] sound= {R.raw.horn,R.raw.sound1,R.raw.sound2};
+        final int[] sound= {R.raw.air2,R.raw.air2,R.raw.horn,R.raw.horn,R.raw.air2,R.raw.air2,R.raw.horn,R.raw.horn};
 
         button.setOnTouchListener( new View.OnTouchListener() {
             @Override
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Random random = new Random();
                     int low=0;
-                    int high=3;
+                    int high=8;
                     int rnd = random.nextInt(high-low)+low;
 
                     player= MediaPlayer.create( MainActivity.this,sound[rnd] );
