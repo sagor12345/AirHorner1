@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView img = findViewById(R.id.image);
         img.setBackgroundResource(R.drawable.anim);
         animationDrawable = (AnimationDrawable) img.getBackground();
-
+        //add song
         final int[] sound= {R.raw.air2,R.raw.air2,R.raw.horn,R.raw.horn,R.raw.air2,R.raw.air2,R.raw.horn,R.raw.horn};
 
         button.setOnTouchListener( new View.OnTouchListener() {
