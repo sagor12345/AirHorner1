@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         img.setBackgroundResource(R.drawable.anim);
         animationDrawable = (AnimationDrawable) img.getBackground();
         //add song
-        final int[] sound= {R.raw.air2,R.raw.air2,R.raw.horn,R.raw.horn,R.raw.air2,R.raw.air2,R.raw.horn,R.raw.horn};
+        final int[] sound= {R.raw.horn,R.raw.air2,R.raw.horn};
 
         button.setOnTouchListener( new View.OnTouchListener() {
             @Override
