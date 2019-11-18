@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.AnimationDrawable;
 import android.media.MediaPlayer;
@@ -34,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate( savedInstanceState );
-
         setContentView( R.layout.activity_main );
+
 
         button = findViewById( R.id.btn );
 

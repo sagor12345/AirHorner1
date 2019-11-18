@@ -9,15 +9,16 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="179dp"
-        android:layout_height="192dp"
+        android:layout_width="375dp"
+        android:layout_height="385dp"
         app:layout_constraintBottom_toTopOf="@+id/btn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726" />
+        app:layout_constraintVertical_bias="0.454" />
 
     <Button
         android:id="@+id/btn"
@@ -27,10 +28,9 @@
         android:text="Air Horner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719">
+        app:layout_constraintVertical_bias="0.841">
 
     </Button>
 

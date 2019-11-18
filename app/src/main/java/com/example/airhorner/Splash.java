@@ -37,6 +37,8 @@ public class Splash extends AppCompatActivity {
 
     }
 
+
+
     public  void splash(){
         for (progress =20;progress<=100;progress=progress+20){
             try {
@@ -55,4 +57,6 @@ public class Splash extends AppCompatActivity {
         finish();
 
     }
+
+
 }
